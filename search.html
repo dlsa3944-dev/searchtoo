@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Resultados</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="notify-container"></div>
+
+<header>
+  <img src="assets/logo.png" class="logo">
+</header>
+
+<div class="main">
+
+  <input id="searchBox">
+  <button onclick="goSearch()">Buscar</button>
+
+  <div id="ads-container"></div>
+
+  <h3 id="queryText"></h3>
+  <div id="results"></div>
+
+</div>
+
+<script src="js/db.js"></script>
+<script src="js/notify.js"></script>
+<script src="js/ads.js"></script>
+<script src="js/app.js"></script>
+
+<script>
+const params = new URLSearchParams(window.location.search);
+const q = params.get("q");
+
+if (q) {
+  document.getElementById("searchBox").value = q;
+  document.getElementById("queryText").innerText = "Resultados para: " + q;
+  runSearch(q);
+}
+
+renderAds();
+</script>
+
+</body>
+</html>

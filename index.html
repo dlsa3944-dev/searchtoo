@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>SearchToo</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="notify-container"></div>
+
+<header>
+  <img src="assets/logo.png" class="logo">
+  <nav>
+    <a href="index.html">Início</a>
+    <a href="search.html">Buscar</a>
+    <a href="trends.html">Trends</a>
+    <a href="history.html">Histórico</a>
+    <a href="dashboard.html">Painel</a>
+  </nav>
+</header>
+
+<div class="main">
+
+  <div class="search-box">
+    <input id="searchBox" placeholder="Pesquisar ou digitar URL">
+    <button onclick="goSearch()">Buscar</button>
+  </div>
+
+  <div id="ads-container"></div>
+
+  <div class="discover" id="discover"></div>
+
+</div>
+
+<footer>Copyright © 2026 Okafor. Todos os direitos reservados.</footer>
+<footer>Copyright © 2026 Wikimedia Foundation. Todos os direitos reservados.</footer>
+
+<script src="js/db.js"></script>
+<script src="js/notify.js"></script>
+<script src="js/ads.js"></script>
+<script src="js/app.js"></script>
+
+<script>
+renderAds();
+loadDiscover();
+</script>
+
+</body>
+</html>

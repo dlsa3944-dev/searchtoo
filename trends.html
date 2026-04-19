@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>SearchTrends</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="notify-container"></div>
+
+<header>
+  <h2>SearchTrends</h2>
+</header>
+
+<div class="main">
+
+  <h3>🔥 Tendências do SearchToo</h3>
+  <div id="local-trends"></div>
+
+  <h3>🌍 Tendências Globais (Wikipédia)</h3>
+  <div id="global-trends"></div>
+
+</div>
+
+<script src="js/notify.js"></script>
+<script src="js/trends.js"></script>
+
+<script>
+loadLocalTrends();
+loadGlobalTrends();
+</script>
+
+</body>
+</html>

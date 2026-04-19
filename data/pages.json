@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Google",
+    "content": "Motor de busca mais usado",
+    "tags": ["google","busca"]
+  },
+  {
+    "title": "Bing",
+    "content": "Busca da Microsoft",
+    "tags": ["bing","busca"]
+  }
+]
