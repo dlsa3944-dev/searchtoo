@@ -1,13 +1,15 @@
-# SearchToo por Davii
+# SearchToo por Davii.
 
-## Como funciona
+## Como funciona:
 O SearchToo é uma ferramenta de pesquisa com a Wikipédia.
 
-## Como usar
+## Como usar:
 Para usar, somente baixe no Code > Download ZIP e acesse o index.html.
 
 ## Este projeto usa:
 HTML, CSS, JS, JSON, ICO e PNG. 
 
-## AVISO
+## AVISO:
 Há muitos bugs e erros no programa.
+
+Escrito por Davii em 18 de abril de 2026.
