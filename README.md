@@ -14,4 +14,4 @@ HTML, CSS, JS, JSON, ICO e PNG.
 ## AVISO:
 Há muitos bugs e erros no programa.
 
-Escrito por Davii em terça-feira, 21 de abril de 2026.
+# Escrito por Davii em terça-feira, 21 de abril de 2026.
